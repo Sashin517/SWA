@@ -1,0 +1,153 @@
+body {
+    background-color: #1D267D;
+}
+
+.search-box {
+
+    /* background-color: #20193C; */
+    /* box-shadow: 0 0 0 0.1rem #958CC0; */
+
+    .wrapper {
+
+        background-color: #20193C;
+        padding: 1px 1px 1px 16px;
+
+        input {
+            border: none;
+            background-color: #20193C;
+            color: white;
+
+        }
+
+        input:focus {
+            color: white;
+            background-color: #20193C;
+            outline: 0;
+        }
+
+        button {
+            background-color: #20193C;
+            aspect-ratio: 1;
+        }
+
+    }
+
+    .wrapper:focus-within {
+        box-shadow: 0 0 5px 0 #958CC0;
+    }
+
+
+}
+
+.menu-btn {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.btn-primary {
+    background-color: #958CC0;
+    border: none;
+}
+
+.offcanvas {
+    background-color: #1D267D;
+    --bs-offcanvas-width: 300px;
+}
+
+/* .page-card {
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+
+    img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    div {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+.movie-poster {
+    background-image: url("resources/images/kr_poster.jpg");
+    background-position: center;
+    background-size: cover;
+    border: none;
+
+    .card-shading {
+        border-radius: 0.375rem;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(8, 8, 8, 0.837));
+
+        .card-body {
+            width: 60%;
+        }
+    }
+}
+
+.movie-genres {
+
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+
+} */
+
+
+
+
+
+
+/* .blobs {
+
+
+    .blob-1 {
+        position: fixed;
+        width: 861px;
+        height: 776px;
+        left: 118px;
+        top: -64px;
+        background: #5C469C;
+        filter: blur(210px);
+
+        border-radius: 22% 74% 36% 66% / 53% 53% 49% 39%;
+        z-index: -99;
+
+    }
+
+    .blob-2 {
+        position: fixed;
+        width: 766px;
+        height: 611px;
+        left: 1537px;
+        top: 0px;
+        background: #D4ADFC;
+        filter: blur(210px);
+
+        border-radius: 22% 74% 36% 66% / 53% 53% 49% 39%;
+        z-index: -99;
+
+    }
+
+    .blob-3 {
+        position: fixed;
+        width: 766px;
+        height: 611px;
+        left: -241px;
+        top: 1247px;
+        background: #D4ADFC;
+        filter: blur(210px);
+
+        border-radius: 22% 74% 36% 66% / 53% 53% 49% 39%;
+        z-index: -99;
+
+    }
+
+} */
